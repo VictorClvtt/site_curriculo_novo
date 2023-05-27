@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #74FFA5;
+  }  
+
+body{
+    background-color: #007A78;
+    text-align: center;
+}
+
+.rodapé{
+    background-color: #005554;
+    color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+
+.rodapé a{
+    margin: 0 0 0 50px;
+    padding: 2px 4px;
+    border: 1px solid black;
+    background-color: rgb(68, 121, 120);
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.rodapé a:hover{
+    color: rgb(0, 30, 199);
+    background-color: #59bb9a;
+}
+
+.titulo h1{
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Noto Serif', serif;
+    text-decoration: underline;
+    transition: all 0.3s;
+}
+
+.titulo h1:hover{
+    font-size: 70px;
+    color: rgb(106, 215, 255);
+}
+
+.titulo h2{
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+.titulo{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 260px;
+    overflow: hidden;
+    background: linear-gradient(175deg, rgba(10, 74, 139, 0.701) 15%, rgba(0,0,0,0) 60%);
+}
+
+footer{
+    border: 2px solid #005554;
+    margin: 0 15px;
+}
+
+.conteúdo{
+    margin: 25px 15px 0 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.conteúdo h1{
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.conteúdo .um{
+    display: flex;
+}
+
+.conteúdo h1{
+    font-size: 20px;
+}
+
+.contatos{
+    border: solid 2px #004342;
+    margin: 0 10px 10px 0;
+    width: 270px;
+    background-color:#086563;
+}
+
+.contatos h1{
+    background-color: #005554;
+    padding: 5px;
+    text-align: start;
+}
+
+.contatos ul{
+    margin: 3px 8px;
+    list-style: none;
+}
+
+.contatos ul li a{
+    color: rgb(59, 255, 252);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.parteDeConteúdo{
+    border: solid 2px #004342;
+    margin: 0 10px 10px 0;
+    background-color:#086563;
+    width: 100%;
+}
+
+.parteDeConteúdo h1{
+    background-color: #005554;
+    padding: 5px;
+    text-align: start;
+}
+
+.parteDeConteúdo div{
+    display: flex;
+    background-color: #005554;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.parteDeConteúdo p{
+    margin: 5px;
+
+}
+
+.conteúdo .dois{
+    display: flex;
+}
+
+img{
+    margin: -3px;
+}
